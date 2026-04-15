@@ -279,8 +279,8 @@
             <p>Portfolio Website</p>
             <hr>
             <p>HTML & CSS JavaScript</p>
-            <button class="live">Live Demo</button>
-            <a href="https://github.com/muthus240119-star"><button class="lives">GitHub</button></a>
+            <a href="https://muthus240119-star.github.io/portfolio/"><button class="live">Live Demo</button></a>
+            <a href="https://github.com/muthus240119-star/portfolio"><button class="lives">GitHub</button></a>
         </div>
         <div class="bus">
             <p>Bus Booking</p>
@@ -302,10 +302,11 @@
             </div>
             <div class="con3">
                 <p>Contact Form</p>
-                <form>
-                    <input type="text" placeholder="Your Name"><br>
-                    <input type="email" placeholder="Your E-mail"><br>
-                    <input type="text" placeholder="Your Message"><br>
+                <form action="https://formspree.io/f/xnjljdaj" method="post">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Your E-mail" name="email" required>
+                    <input type="text" placeholder="Your Message" name="message" required>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>
